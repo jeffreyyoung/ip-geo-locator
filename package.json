@@ -1,15 +1,16 @@
 {
-    "name": "ip-geo-locator",
-    "version": "1.0.0",
-    "description": "An application for locating a user based on their ip address",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node index"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.10.6"
-    }
+  "name": "ip-geo-locator",
+  "version": "1.0.0",
+  "description": "An application for locating a user based on their ip address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.6",
+    "geoip-lite": "^1.1.5"
+  }
 }
